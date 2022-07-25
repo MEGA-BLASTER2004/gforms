@@ -1,7 +1,7 @@
 import ADD_QUESTION from "../actions/types";
 
 const QuestionsReducer = (
-    state = [{ text: "Question Text", options: ["Option A"] }],
+    state = [{ text: "Question Text", options: ["Option A"], type: "single" }],
     action
 ) => {
     switch (action.type) {
